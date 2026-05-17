@@ -1,0 +1,6 @@
+Account Security Policy
+
+Users cannot delete or access another user's account.
+
+Identity verification is mandatory
+for account deletion requests.

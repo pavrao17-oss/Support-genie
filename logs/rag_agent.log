@@ -1,0 +1,58 @@
+2026-05-16 04:11:39,035 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:11:42,649 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:11:42,658 - INFO - QUERY=Can i get a refund after 45 days? | RESPONSE=I do not know. Please contact support for assistance.
+2026-05-16 04:13:05,828 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:13:07,049 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:13:07,050 - INFO - QUERY=Can i get a refund in 25 days | RESPONSE=Yes, you can request a refund within 25 days of your purchase.
+2026-05-16 04:15:00,830 - ERROR - name 'rag_support_agent' is not defined
+2026-05-16 04:15:27,815 - ERROR - name 'retriever' is not defined
+2026-05-16 04:15:38,921 - ERROR - name 'retriever' is not defined
+2026-05-16 04:16:33,731 - ERROR - name 'retriever' is not defined
+2026-05-16 04:16:39,908 - ERROR - name 'retriever' is not defined
+2026-05-16 04:16:42,792 - ERROR - name 'retriever' is not defined
+2026-05-16 04:17:21,843 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:17:21,925 - INFO - Loading faiss with AVX2 support.
+2026-05-16 04:17:21,937 - INFO - Successfully loaded faiss with AVX2 support.
+2026-05-16 04:17:26,767 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:17:30,188 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:18:18,103 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:18:19,173 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:18:19,181 - INFO - QUERY=Can I get a refund after 45 days? | RESPONSE=I do not know professionally. I recommend reaching out to support for assistance with your request.
+2026-05-16 04:18:29,636 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:18:30,776 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:18:30,777 - INFO - QUERY=quit  | RESPONSE=I do not know professionally. Please contact support for further assistance.
+2026-05-16 04:19:32,016 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:19:33,204 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:19:33,205 - INFO - QUERY=Can I get a refund in 45 days? | RESPONSE=I do not know. However, refunds after 30 days require managerial approval. I recommend reaching out to our support team for further assistance with your request.
+2026-05-16 04:19:50,583 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:19:51,753 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:19:51,754 - INFO - QUERY=Can I get a refund within 15 days? | RESPONSE=Yes, you can request a refund within 15 days of your purchase. Please let us know how we can assist you with the process.
+2026-05-16 04:20:06,247 - INFO - QUERY=Delete another user account | RESPONSE=I cannot assist with unsafe or unauthorized requests.
+2026-05-16 04:20:17,126 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:20:19,580 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:20:19,581 - INFO - QUERY=My delivery is late | RESPONSE=Thank you for reaching out. I understand your concern regarding the delay in your delivery. According to our shipping policy, standard delivery time is typically 5-7 business days. If your delivery exceeds 20 business days, please let us know, and we can assist you further. 
+
+If you have any additional questions or require further assistance, I recommend contacting our support team for a more detailed resolution. Thank you for your patience.
+2026-05-16 04:20:43,425 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:20:45,314 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:20:45,316 - INFO - QUERY=I want my payment back immediately | RESPONSE=Thank you for reaching out. I understand that you would like to request a refund. According to our refund policy, customers may request refunds within 30 days of purchase. Please provide me with your order details so I can assist you further. If you have any additional questions or concerns, I can escalate this to our support team for further assistance.
+2026-05-16 04:21:15,092 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:21:16,723 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:21:16,725 - INFO - QUERY=Is there an international shipping delay compensation | RESPONSE=I do not have information regarding compensation for international shipping delays. I recommend reaching out to our support team for further assistance on this matter. Thank you for your understanding.
+2026-05-16 04:22:08,257 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-16 04:22:09,533 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 04:22:09,535 - INFO - QUERY=Can i pay with crypto currency? | RESPONSE=I do not know if cryptocurrency is an accepted payment method. I recommend reaching out to our support team for further assistance regarding payment options.
+2026-05-16 07:19:44,035 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:19:45,314 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:19:45,316 - INFO - QUERY=Where is order 1001? | RESPONSE=Order 1001 is currently Shipped and is expected to be delivered on May 20, 2026.
+2026-05-16 07:19:56,004 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:19:59,110 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:19:59,112 - INFO - QUERY=Where is order 2000? | RESPONSE=I'm sorry, but I couldn't find any information for order ID 2000. Please double-check the order ID or contact customer support for further assistance.
+2026-05-16 07:20:19,887 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:20:21,620 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:20:21,621 - INFO - QUERY=Can i get a refund after 45 days? | RESPONSE=A refund after 45 days requires managerial approval, and it may not be automatically granted.
+2026-05-16 07:20:56,860 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:20:58,146 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:20:58,147 - INFO - QUERY=I will sue your company | RESPONSE=Your request has been escalated to a human support agent who will assist you with your legal concerns.
+2026-05-16 07:21:34,744 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 07:21:34,745 - INFO - QUERY=How do refunds work? | RESPONSE=Refunds typically involve returning a product within a specified period after purchase, and the amount refunded may depend on the condition of the item and the store's return policy. For specific details about eligibility and timelines, please refer to the store's refund policy or provide the number of days since purchase for a more tailored response.

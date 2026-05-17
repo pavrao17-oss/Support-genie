@@ -1,0 +1,107 @@
+[
+  {
+    "query": "Where is my order 1001?",
+    "response": "Your order 1001 has been shipped and is expected to be delivered on May 20, 2026.\n```",
+    "feedback": "negative",
+    "issue_type": "verbosity",
+    "timestamp": "2026-05-17 01:46:47.953509"
+  },
+  {
+    "query": "Where is my order ",
+    "response": "1. **Intent**: The customer is inquiring about the status of their order.\n\n2. **Action Taken**: I provided the customer with the shipping status of their order, including the expected delivery date.\n\n3. **Final Response**: Your order 1001 has been shipped and is expected to be delivered on May 20, 2026. If you have any further questions or concerns, please let me know!",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 01:47:27.110830"
+  },
+  {
+    "query": "Why is my shipping late",
+    "response": "1. **Intent**: The customer is inquiring about the delay in the shipping of their order.\n\n2. **Action Taken**: I checked the shipping status of the order and confirmed that it has been shipped. However, the expected delivery date is significantly later than the standard delivery time of 5-7 business days.\n\n3. **Final Response**: I understand your concern regarding the delay in your order's shipping. Your order 1001 has been shipped, but it is expected to be delivered on May 20, 2026, which exceeds the standard delivery time of 5-7 business days. If you have any further questions or if this issue remains unresolved, please let me know, and I can assist you further.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 01:48:10.365121"
+  },
+  {
+    "query": "Can i sue you for this delay. inshipping",
+    "response": "1. **Intent**: The customer is expressing frustration regarding a shipping delay and is inquiring about the possibility of legal action due to this issue.\n\n2. **Action Taken**: I have acknowledged the customer's concern regarding the shipping delay and provided information about the standard delivery time. I have also noted that compensation may be requested if delivery exceeds 20 business days.\n\n3. **Final Response**: While I understand your frustration regarding the shipping delay, legal action is not typically a viable option for such matters. Our standard delivery time is 5-7 business days, and if your order exceeds 20 business days, you may request compensation. If you have further concerns or require additional assistance, please let me know, and I can escalate this issue for you.",
+    "feedback": "negative",
+    "issue_type": "inaccurate",
+    "timestamp": "2026-05-17 01:49:08.577213"
+  },
+  {
+    "query": "can i sue you for delay in shipping",
+    "response": "1. **Intent**: The customer is inquiring about the possibility of legal action due to a delay in shipping.\n\n2. **Action Taken**: I have reviewed the shipping policy, which states that standard delivery time is 5-7 business days. Since the order is expected to be delivered on May 20, 2026, it is significantly beyond the standard delivery timeframe. \n\n3. **Final Response**: While I understand your frustration regarding the shipping delay, legal action is typically a last resort. Our shipping policy allows for delivery within 5-7 business days, and if delivery exceeds 20 business days, we may be able to assist you further. I recommend reaching out to our customer service team to discuss your concerns and explore possible resolutions. If you have further questions or need assistance, please let me know.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 01:50:41.438194"
+  },
+  {
+    "query": "can i delete my user account ?",
+    "response": "1. **Intent**: The user is inquiring about the possibility of deleting their user account.\n\n2. **Action Taken**: I have reviewed the relevant policies regarding account deletion and confirmed that users cannot delete their own accounts without identity verification. \n\n3. **Final Response**: Unfortunately, you cannot delete your user account directly. Identity verification is mandatory for account deletion requests. If you need further assistance or wish to proceed with the verification process, please let me know.",
+    "feedback": "negative",
+    "issue_type": "inaccurate",
+    "timestamp": "2026-05-17 01:51:30.703558"
+  },
+  {
+    "query": "can i delete my account",
+    "response": "1. **Intent**: The user is inquiring about the possibility of deleting their account.\n\n2. **Action Taken**: I have reviewed the account security policy and confirmed that users cannot delete their accounts without proper identity verification.\n\n3. **Final Response**: Unfortunately, you cannot delete your account directly. Identity verification is mandatory for account deletion requests. If you need further assistance or have specific concerns, please let me know, and I can help escalate the issue.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 01:52:23.714097"
+  },
+  {
+    "query": "can i claim a refund after 45 days? ",
+    "response": "The refund for your order requires managerial approval. Please reach out to customer service for further assistance with your refund request.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 01:53:21.072507"
+  },
+  {
+    "query": "can i use crypto to pay",
+    "response": "1. **Intent**: The customer is inquiring about the possibility of using cryptocurrency as a payment method.\n\n2. **Action Taken**: I have reviewed the available information regarding payment methods but do not have specific details about the acceptance of cryptocurrency.\n\n3. **Final Response**: Currently, I do not have information regarding the acceptance of cryptocurrency for payments. I recommend checking with customer service or the payment section of our website for the most accurate and up-to-date information on accepted payment methods.",
+    "feedback": "negative",
+    "issue_type": "verbosity",
+    "timestamp": "2026-05-17 01:53:52.753657"
+  },
+  {
+    "query": "can i use crypto?",
+    "response": "1. **Intent**: The customer is inquiring about the possibility of using cryptocurrency for transactions.\n\n2. **Action Taken**: I have reviewed the available information regarding payment methods, but there is no specific policy mentioned about the acceptance of cryptocurrency.\n\n3. **Final Response**: Currently, I do not have information regarding the acceptance of cryptocurrency for transactions. I recommend checking with customer service for the most accurate and up-to-date information on payment options.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 01:54:07.720314"
+  },
+  {
+    "query": "What is the status of my order?",
+    "response": "1. **Intent**: The customer is inquiring about the status of their order.\n\n2. **Action Taken**: Since the specific order details are not available, I cannot provide the exact status of the order. However, I can inform the customer about the standard delivery times.\n\n3. **Final Response**: Thank you for your inquiry regarding the status of your order. Our standard delivery time is typically 5-7 business days. If your order is being shipped internationally, it may take 10-15 business days. If you believe that your order has exceeded 20 business days, please reach out to our customer service team for further assistance.",
+    "feedback": "negative",
+    "issue_type": "inaccurate",
+    "timestamp": "2026-05-17 04:47:39.681628"
+  },
+  {
+    "query": "What is the status of order 1001",
+    "response": "Your order 1001 has been shipped and is expected to be delivered on May 20, 2026.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 04:48:02.441513"
+  },
+  {
+    "query": "What is the return policy for more than 45 days?",
+    "response": "The refund for your order requires managerial approval. Please check with customer service for further assistance.",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 04:48:45.766063"
+  },
+  {
+    "query": "explain your shipping policy",
+    "response": "1. **Intent**: The customer is seeking clarification on the shipping policy.\n\n2. **Action Taken**: I retrieved relevant information regarding the shipping policy, including standard delivery times for domestic and international orders.\n\n3. **Final Response**: Our shipping policy states that standard delivery time for domestic orders is 5-7 business days. For international shipping, the delivery time is typically 10-15 business days. If you have any further questions or need assistance with your order, please let me know!",
+    "feedback": "positive",
+    "issue_type": "none",
+    "timestamp": "2026-05-17 04:50:51.750613"
+  },
+  {
+    "query": "can i sue you for delay in shipping",
+    "response": "1. **Intent**: The customer is inquiring about the possibility of legal action due to a delay in shipping.\n\n2. **Action Taken**: I have provided information regarding the shipping policy, which states that standard delivery time is 5-7 business days, and noted that if delivery exceeds 20 business days, there may be grounds for concern.\n\n3. **Final Response**: While I understand your frustration regarding the delay in shipping, legal action is typically a last resort. Our shipping policy outlines standard delivery times, and if your order exceeds the expected timeframe, I recommend contacting customer service for assistance. They can provide further information and help resolve any issues related to your order.",
+    "feedback": "negative",
+    "issue_type": "routing",
+    "timestamp": "2026-05-17 04:51:40.135687"
+  }
+]

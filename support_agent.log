@@ -1,0 +1,113 @@
+2026-05-17 01:41:04,828 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:41:04,904 - INFO - Loading faiss with AVX2 support.
+2026-05-17 01:41:04,952 - INFO - Successfully loaded faiss with AVX2 support.
+2026-05-17 01:41:15,172 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:41:16,132 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:41:16,134 - INFO - QUERY=Where is my order 1001? | RESPONSE=Your order 1001 has been shipped and is expected to be delivered on May 20, 2026.
+2026-05-17 01:41:26,826 - ERROR - 'dict' object has no attribute 'append'
+2026-05-17 01:41:49,043 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:41:49,104 - ERROR - string indices must be integers
+2026-05-17 01:42:24,115 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:42:24,169 - ERROR - string indices must be integers
+2026-05-17 01:43:43,094 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:43:52,919 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:43:53,827 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:43:53,829 - INFO - QUERY=Where is my order 1001 ? | RESPONSE=Your order 1001 has been shipped and is expected to be delivered on May 20, 2026.
+2026-05-17 01:44:07,738 - ERROR - Expecting value: line 1 column 1 (char 0)
+2026-05-17 01:46:32,192 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:46:39,770 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:46:40,626 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:46:40,628 - INFO - QUERY=Where is my order 1001? | RESPONSE=Your order 1001 has been shipped and is expected to be delivered on May 20, 2026.
+```
+2026-05-17 01:46:57,793 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:47:00,227 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:47:00,228 - INFO - QUERY=Where is my order  | RESPONSE=1. **Intent**: The customer is inquiring about the status of their order.
+
+2. **Action Taken**: I provided the customer with the shipping status of their order, including the expected delivery date.
+
+3. **Final Response**: Your order 1001 has been shipped and is expected to be delivered on May 20, 2026. If you have any further questions or concerns, please let me know!
+2026-05-17 01:47:46,033 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:47:48,365 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:47:48,366 - INFO - QUERY=Why is my shipping late | RESPONSE=1. **Intent**: The customer is inquiring about the delay in the shipping of their order.
+
+2. **Action Taken**: I checked the shipping status of the order and confirmed that it has been shipped. However, the expected delivery date is significantly later than the standard delivery time of 5-7 business days.
+
+3. **Final Response**: I understand your concern regarding the delay in your order's shipping. Your order 1001 has been shipped, but it is expected to be delivered on May 20, 2026, which exceeds the standard delivery time of 5-7 business days. If you have any further questions or if this issue remains unresolved, please let me know, and I can assist you further.
+2026-05-17 01:48:25,531 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:48:28,019 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:48:28,020 - INFO - QUERY=Can i sue you for this delay. inshipping | RESPONSE=1. **Intent**: The customer is expressing frustration regarding a shipping delay and is inquiring about the possibility of legal action due to this issue.
+
+2. **Action Taken**: I have acknowledged the customer's concern regarding the shipping delay and provided information about the standard delivery time. I have also noted that compensation may be requested if delivery exceeds 20 business days.
+
+3. **Final Response**: While I understand your frustration regarding the shipping delay, legal action is not typically a viable option for such matters. Our standard delivery time is 5-7 business days, and if your order exceeds 20 business days, you may request compensation. If you have further concerns or require additional assistance, please let me know, and I can escalate this issue for you.
+2026-05-17 01:49:22,555 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:49:25,673 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:49:25,674 - INFO - QUERY=can i sue you for delay in shipping | RESPONSE=1. **Intent**: The customer is inquiring about the possibility of legal action due to a delay in shipping.
+
+2. **Action Taken**: I have reviewed the shipping policy, which states that standard delivery time is 5-7 business days. Since the order is expected to be delivered on May 20, 2026, it is significantly beyond the standard delivery timeframe. 
+
+3. **Final Response**: While I understand your frustration regarding the shipping delay, legal action is typically a last resort. Our shipping policy allows for delivery within 5-7 business days, and if delivery exceeds 20 business days, we may be able to assist you further. I recommend reaching out to our customer service team to discuss your concerns and explore possible resolutions. If you have further questions or need assistance, please let me know.
+2026-05-17 01:51:02,427 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:51:04,362 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:51:04,363 - INFO - QUERY=can i delete my user account ? | RESPONSE=1. **Intent**: The user is inquiring about the possibility of deleting their user account.
+
+2. **Action Taken**: I have reviewed the relevant policies regarding account deletion and confirmed that users cannot delete their own accounts without identity verification. 
+
+3. **Final Response**: Unfortunately, you cannot delete your user account directly. Identity verification is mandatory for account deletion requests. If you need further assistance or wish to proceed with the verification process, please let me know.
+2026-05-17 01:51:40,214 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:51:42,312 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:51:42,314 - INFO - QUERY=can i delete my account | RESPONSE=1. **Intent**: The user is inquiring about the possibility of deleting their account.
+
+2. **Action Taken**: I have reviewed the account security policy and confirmed that users cannot delete their accounts without proper identity verification.
+
+3. **Final Response**: Unfortunately, you cannot delete your account directly. Identity verification is mandatory for account deletion requests. If you need further assistance or have specific concerns, please let me know, and I can help escalate the issue.
+2026-05-17 01:52:55,996 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:52:56,949 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:52:56,950 - INFO - QUERY=can i claim a refund after 45 days?  | RESPONSE=The refund for your order requires managerial approval. Please reach out to customer service for further assistance with your refund request.
+2026-05-17 01:53:32,525 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:53:34,937 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:53:34,938 - INFO - QUERY=can i use crypto to pay | RESPONSE=1. **Intent**: The customer is inquiring about the possibility of using cryptocurrency as a payment method.
+
+2. **Action Taken**: I have reviewed the available information regarding payment methods but do not have specific details about the acceptance of cryptocurrency.
+
+3. **Final Response**: Currently, I do not have information regarding the acceptance of cryptocurrency for payments. I recommend checking with customer service or the payment section of our website for the most accurate and up-to-date information on accepted payment methods.
+2026-05-17 01:53:59,595 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 01:54:01,570 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 01:54:01,571 - INFO - QUERY=can i use crypto? | RESPONSE=1. **Intent**: The customer is inquiring about the possibility of using cryptocurrency for transactions.
+
+2. **Action Taken**: I have reviewed the available information regarding payment methods, but there is no specific policy mentioned about the acceptance of cryptocurrency.
+
+3. **Final Response**: Currently, I do not have information regarding the acceptance of cryptocurrency for transactions. I recommend checking with customer service for the most accurate and up-to-date information on payment options.
+2026-05-17 04:32:25,661 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:32:25,754 - INFO - Loading faiss with AVX2 support.
+2026-05-17 04:32:25,848 - INFO - Successfully loaded faiss with AVX2 support.
+2026-05-17 04:36:53,836 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:40:33,747 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:46:39,975 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:47:15,427 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:47:17,518 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:47:17,530 - INFO - QUERY=What is the status of my order? | RESPONSE=1. **Intent**: The customer is inquiring about the status of their order.
+
+2. **Action Taken**: Since the specific order details are not available, I cannot provide the exact status of the order. However, I can inform the customer about the standard delivery times.
+
+3. **Final Response**: Thank you for your inquiry regarding the status of your order. Our standard delivery time is typically 5-7 business days. If your order is being shipped internationally, it may take 10-15 business days. If you believe that your order has exceeded 20 business days, please reach out to our customer service team for further assistance.
+2026-05-17 04:47:56,630 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:47:57,576 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:47:57,579 - INFO - QUERY=What is the status of order 1001 | RESPONSE=Your order 1001 has been shipped and is expected to be delivered on May 20, 2026.
+2026-05-17 04:48:36,418 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:48:37,351 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:48:37,355 - INFO - QUERY=What is the return policy for more than 45 days? | RESPONSE=The refund for your order requires managerial approval. Please check with customer service for further assistance.
+2026-05-17 04:50:40,984 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:50:43,743 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:50:43,746 - INFO - QUERY=explain your shipping policy | RESPONSE=1. **Intent**: The customer is seeking clarification on the shipping policy.
+
+2. **Action Taken**: I retrieved relevant information regarding the shipping policy, including standard delivery times for domestic and international orders.
+
+3. **Final Response**: Our shipping policy states that standard delivery time for domestic orders is 5-7 business days. For international shipping, the delivery time is typically 10-15 business days. If you have any further questions or need assistance with your order, please let me know!
+2026-05-17 04:51:21,555 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-17 04:51:24,536 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-17 04:51:24,541 - INFO - QUERY=can i sue you for delay in shipping | RESPONSE=1. **Intent**: The customer is inquiring about the possibility of legal action due to a delay in shipping.
+
+2. **Action Taken**: I have provided information regarding the shipping policy, which states that standard delivery time is 5-7 business days, and noted that if delivery exceeds 20 business days, there may be grounds for concern.
+
+3. **Final Response**: While I understand your frustration regarding the delay in shipping, legal action is typically a last resort. Our shipping policy outlines standard delivery times, and if your order exceeds the expected timeframe, I recommend contacting customer service for assistance. They can provide further information and help resolve any issues related to your order.

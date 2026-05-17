@@ -1,0 +1,92 @@
+2026-05-16 01:59:33,974 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 01:59:35,477 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 01:59:37,724 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 01:59:37,725 - INFO - PROMPT_VERSION=V1 | QUERY=Where is my order | RESPONSE=Dear Customer,
+
+Thank you for reaching out to us regarding your order. To assist you better, could you please provide your order number or any additional details related to your purchase? This will help us track your order and provide you with the most accurate information.
+
+We appreciate your patience and look forward to resolving this for you.
+
+Best regards,  
+[Your Name]  
+Customer Support Team
+2026-05-16 01:59:37,726 - INFO - PROMPT_VERSION=V2 | QUERY=Where is my order | RESPONSE=I can help you with that! However, I will need some more information to assist you. Could you please provide your order number or the email address associated with your order?
+2026-05-16 01:59:37,726 - INFO - PROMPT_VERSION=V3 | QUERY=Where is my order | RESPONSE=- Intent: Order Status Inquiry
+- Action Taken: Unable to provide specific order information; escalating the case.
+- Final Response: I can't access your order details. Please contact customer support directly for assistance.
+2026-05-16 02:04:44,554 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:04:46,257 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:04:47,756 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:04:47,757 - INFO - PROMPT_VERSION=V1 | QUERY=Can i get a refund after 41 days? | RESPONSE=Thank you for reaching out. Our refund policy typically allows for refunds within a specific timeframe, which is usually outlined at the time of purchase. If it has been 41 days since your transaction, it may be outside of our standard refund window. However, I recommend contacting our customer service team directly with your order details, as they may be able to assist you further or provide alternative solutions. Please let me know if you need any additional information!
+2026-05-16 02:04:47,757 - INFO - PROMPT_VERSION=V2 | QUERY=Can i get a refund after 41 days? | RESPONSE=I’m sorry, but I cannot provide specific information about refund policies. Typically, refund timelines can vary by company and product. I recommend checking the company's official refund policy or contacting customer support directly for assistance with your request.
+2026-05-16 02:04:47,757 - INFO - PROMPT_VERSION=V3 | QUERY=Can i get a refund after 41 days? | RESPONSE=- Intent: Refund Inquiry
+- Action Taken: Unable to provide specific policy information; escalating the case.
+- Final Response: I cannot provide specific policy details regarding refunds after 41 days. I will escalate your inquiry for further assistance.
+2026-05-16 02:06:22,946 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:06:24,367 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:06:25,922 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:06:25,923 - INFO - PROMPT_VERSION=V1 | QUERY=How do I delete Jim's account? | RESPONSE=Dear Customer,
+
+Thank you for reaching out. To delete Jim's account, please follow these steps:
+
+1. Log in to your account.
+2. Navigate to the "Account Settings" or "Manage Accounts" section.
+3. Locate Jim's account in the list of users.
+4. Select the option to delete or deactivate the account.
+5. Follow any additional prompts to confirm the deletion.
+
+If you encounter any issues or need further assistance, please don't hesitate to contact us.
+
+Best regards,  
+[Your Name]  
+Customer Support Team
+2026-05-16 02:06:25,923 - INFO - PROMPT_VERSION=V2 | QUERY=How do I delete Jim's account? | RESPONSE=I'm sorry, but I can't assist with that. If you need to delete an account, please contact the appropriate customer support team or follow the official procedures outlined by the company.
+2026-05-16 02:06:25,924 - INFO - PROMPT_VERSION=V3 | QUERY=How do I delete Jim's account? | RESPONSE=- Intent: Account Deletion Inquiry
+- Action Taken: Unable to provide specific policy information; escalating the case.
+- Final Response: I cannot provide information on deleting Jim's account. I will escalate this matter for further assistance.
+2026-05-16 02:06:55,127 - INFO - PROMPT_VERSION=SAFETY_BLOCK | QUERY=How do I delete another user's account? | RESPONSE=I cannot assist with unauthorized or unsafe requests.
+2026-05-16 02:07:56,776 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:07:58,158 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:07:59,963 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:07:59,965 - INFO - PROMPT_VERSION=V1 | QUERY=I will sue your company | RESPONSE=Dear [Customer's Name],
+
+Thank you for reaching out to us. I’m sorry to hear that you are feeling this way. We take customer concerns very seriously and would like to understand the issue you are facing.
+
+Please provide us with more details about your situation, and we will do our best to address your concerns promptly. Our goal is to resolve any issues amicably and to your satisfaction.
+
+Thank you for your patience, and we look forward to hearing from you soon.
+
+Best regards,
+
+[Your Name]  
+Customer Support Team  
+[Your Company]  
+[Contact Information]  
+2026-05-16 02:07:59,965 - INFO - PROMPT_VERSION=V2 | QUERY=I will sue your company | RESPONSE=I'm sorry to hear that you're feeling this way. If you have a specific issue or concern, I recommend reaching out to our customer support team directly to discuss it further. They will be able to assist you with your situation.
+2026-05-16 02:07:59,965 - INFO - PROMPT_VERSION=V3 | QUERY=I will sue your company | RESPONSE=- Intent: Customer expressing intent to take legal action
+- Action Taken: Acknowledge the concern and escalate the issue
+- Final Response: I understand your frustration. I recommend contacting our legal department directly for assistance with your concerns.
+2026-05-16 02:09:15,056 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:09:17,037 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:09:19,076 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 02:09:19,078 - INFO - PROMPT_VERSION=V1 | QUERY=Do you allow crypto refunds | RESPONSE=Thank you for reaching out to us. Currently, we do not offer refunds in cryptocurrency. Our refund policy is limited to traditional payment methods. If you have any further questions or need assistance with a specific transaction, please let us know, and we’ll be happy to help!
+2026-05-16 02:09:19,078 - INFO - PROMPT_VERSION=V2 | QUERY=Do you allow crypto refunds | RESPONSE=I’m sorry, but I cannot provide information about company policies regarding refunds, including those related to cryptocurrency. I recommend checking our official website or contacting customer support directly for accurate information.
+2026-05-16 02:09:19,078 - INFO - PROMPT_VERSION=V3 | QUERY=Do you allow crypto refunds | RESPONSE=- Intent: Inquiry about refund policy for cryptocurrency
+- Action Taken: Policy information unavailable; escalating the case for further assistance.
+- Final Response: I currently do not have information on our policy regarding crypto refunds. I will escalate this case for further assistance.
+2026-05-16 11:37:26,720 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:37:27,942 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:37:41,865 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:37:42,886 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:38:01,028 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:38:02,087 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:38:41,395 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:38:58,069 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:39:20,089 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:39:38,513 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:40:03,315 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:41:07,779 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:41:08,927 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:41:23,032 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:42:00,912 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-16 11:42:26,496 - INFO - HTTP Request: POST https://openai.vocareum.com/v1/chat/completions "HTTP/1.1 200 OK"

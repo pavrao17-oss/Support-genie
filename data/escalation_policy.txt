@@ -1,0 +1,8 @@
+Escalation Policy
+
+Escalate immediately if:
+- legal threats
+- fraud complaints
+- payment disputes
+- harassment
+- data privacy incidents
